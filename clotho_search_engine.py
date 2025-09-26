@@ -30,6 +30,7 @@ audio_path=["/data/air/pc/Mobile-Search-Engine/datasets/clotho/evaluation/"+file
 
 import argparse
 
+#使用 Python 的 NumPy 和 SciPy 库进行数字信号处理
 # 创建解析器
 parser = argparse.ArgumentParser(description="Your script description")
 

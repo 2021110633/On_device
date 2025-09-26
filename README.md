@@ -159,3 +159,5 @@ parser.add_argument("--batch_size", type=int, default=4, help="Batch size for tr
 ....
 trainer = Trainer(accelerator="gpu" if "cuda" in device_name else "cpu",
                       devices=[1,2,3], deterministic=True)
+
+
